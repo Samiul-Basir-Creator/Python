@@ -26,23 +26,24 @@ def main():
         print("2. Substraction")
         print("3. Multiplication")
         print("4. Division")
+        print(\n)
        
         choice = input("What would you like to do? \n(1/2/3/4) or Exit: ")
-        if choice == "Exit" or choice=="exit":
+        if (choice == "Exit" or choice=="exit"):
             count = 1
         else:
-
             x = float(input("Enter the first number: "))
             y = float(input("Enter the second number: "))
-            if choice == '1':
+            if (choice == '1'):
                 print("Addition:", add(x, y))
-            elif choice == '2':
+            elif (choice == '2'):
                 print("Subtraction:", subtract(x, y))
-            elif choice == '3':
+            elif (choice == '3'):
                 print("Multiplication:", multiply(x, y))
-            elif choice == '4':
+            elif (choice == '4'):
                 print("Division:", divide(x, y))
             else:
-               print("Invalid input")
-
+                print("Invalid input")
 main()
+
+    
