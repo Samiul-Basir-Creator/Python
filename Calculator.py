@@ -26,7 +26,7 @@ def main():
         print("2. Substraction")
         print("3. Multiplication")
         print("4. Division")
-        print(\n)
+        print("\n")
        
         choice = input("What would you like to do? \n(1/2/3/4) or Exit: ")
         if (choice == "Exit" or choice=="exit"):
