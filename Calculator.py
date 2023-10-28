@@ -44,6 +44,7 @@ def main():
                 print("Division:", divide(x, y))
             else:
                 print("Invalid input")
+            print("\n")
 main()
 
     
